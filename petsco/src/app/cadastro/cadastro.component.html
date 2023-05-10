@@ -1,0 +1,39 @@
+<div>
+    <nav class="shadow">
+        <div class="nav-center">
+            <div id="title">
+                <a routerLink="/inicio"><img src="../../assets/LOGO2.png" alt="" class="logoNav"></a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="container1">
+    <div class="cardInputs">
+            <div class="cadastrese"><h1>Cadastre-se</h1><br></div>
+                <form [formGroup]="formCadastro">
+                    <div class="inputRow">
+                        <div class="inputs">
+                            <input placeholder="Nome e sobrenome" type="text" class="inputsCad" formControlName="nome">
+                            <input placeholder="E-mail" type="email" class="inputsCad" formControlName="email">
+                            <input placeholder="Senha" type="password" class="inputsCad" formControlName="senha">
+                            <input placeholder="Confirmar senha" type="password" class="inputsCad">
+                            <input placeholder="CPF" type="text" class="inputsCad" formControlName="cpf" maxlength="11">
+                            <input placeholder="Telefone" type="text" class="inputsCad" formControlName="telefone" maxlength="11">
+                        </div>
+                        <div class="inputs">
+                            <input placeholder="CEP" type="text" class="inputsCad" formControlName="cep" maxlength="8">
+                            <input placeholder="Número da casa/apto" type="text" class="inputsCad" formControlName="numero">
+                            <input placeholder="Rua" type="text" class="inputsCad" formControlName="rua">
+                            <input placeholder="Cidade" type="text" class="inputsCad" formControlName="cidade">
+                            <input placeholder="Bairro" type="text" class="inputsCad" formControlName="bairro">
+                            <input placeholder="Estado" type="text" class="inputsCad"formControlName="estado">
+                        </div>
+                    </div>
+                   </form>
+                    <a><button class="btnCad" (click)="createUser()">Cadastrar</button></a>
+
+                <!--routerLink="/inicio"-->
+                <h4>Ja tem uma conta? <a routerLink="/login">Faca login</a></h4>
+    </div>
+</div>

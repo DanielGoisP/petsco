@@ -1,0 +1,381 @@
+/*navbar*/
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 9vh;
+}
+
+.logoNav {
+  height: 55px;
+  width: 200px;
+}
+
+.nav-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1160px;
+}
+
+.shadow {
+  position: relative;
+  box-shadow: 0 1px 100px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.shadow::before,
+.shadow::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  top: 50%;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+  border-radius: 100px / 10px;
+}
+
+
+li {
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btnCad {
+  background-color: #297373;
+  border-style: none;
+  border-radius: 7px;
+  padding: 7px 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  scroll-behavior: smooth;
+}
+
+.btnCad:hover {
+  background-color: #1d5252;
+  color: #ffffff;
+}
+
+.btnLog {
+  background-color: #fff;
+  border: 2px solid #297373;
+  border-radius: 7px;
+  padding: 5px 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #297373;
+  cursor: pointer;
+}
+
+.btnLog:hover {
+  background-color: #297373;
+  color: #ffffff;
+}
+
+/*end navbar*/
+
+
+.container1 {
+  background-image: url("../../assets/mulhercomcachorros.png");
+  background-size: cover;
+  height: 850px;
+  background-color: #fafafa;
+}
+
+.frase {
+  font-family: "Arial";
+  max-width: 95%;
+  padding-top: 100px;
+  padding-left: 140px;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.btnCards {
+  border-style: none;
+  border-radius: 7px;
+  background-color: #297373;
+  padding: 10px 25px;
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.btnCards:hover {
+  background-color: #1d5252;
+  color: #ffffff;
+}
+
+.container2 {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.btn1 {
+  border-style: none;
+  border-radius: 7px;
+  background-color: #297373;
+  padding: 7px 15px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/*cards*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.encontra {
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 70px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.column {
+  display: flex;
+  gap: 20px;
+  float: left;
+  width: 200px;
+  padding: 0 0px;
+}
+
+.row {
+  padding-left: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cards {
+  display: flex;
+  background-color: #fdfdfd;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 300px;
+}
+
+.gap-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 305px;
+  box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  width: 200px;
+  display: flex;
+  flex-wrap: row-reverse;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 5%;
+  cursor: pointer;
+  font-family: "Arial";
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+/*end cards*/
+
+/* perdidos */
+.maincontainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  place-items: center;
+}
+
+.container3 {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  background-color: #fafafa;
+  margin-top: 5%;
+  padding-bottom: 10%;
+  gap: 5rem;
+}
+
+.column2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.alpha {
+  height: 15rem;
+  width: 15rem;
+}
+
+.alphainf {
+  padding-top: 2%;
+  padding-right: 53%;
+}
+
+.perdidos-text {
+  padding-top: 3%;
+  text-align: center;
+  color: #000000;
+  font-size: 2.5vh;
+}
+
+.card-perdidos {
+  border: solid 0.1vh;
+  border-radius: 1.5vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  background-color: #ffffff;
+  font-family: "Arial";
+  height: 15rem;
+}
+
+.btnperdidos {
+  display: flex;
+  justify-content: center;
+}
+
+.btnvermais {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3.5rem;
+  padding-left: 3rem;
+  padding-top: 0.6rem;
+  border-style: none;
+  border-radius: 0.4rem;
+  width: 14rem;
+  height: 2.5rem;
+  background-color: #297373;
+  font-family: "Poppins", sans-serif;
+  font-weight: 450;
+  font-size: 2.5vh;
+  color: #fafafa;
+  justify-content: center;
+
+}
+
+.setaperdidos {
+  padding-top: 0.2rem;
+  width: 2.2rem;
+}
+/* end perdidos */
+
+/*footer*/
+.footer {
+  margin-top: 4%;
+  padding: 3%;
+  background-color: #297373;
+  justify-content: space-evenly;
+  display: flex;
+  color: white;
+  font-size: 2.3vh;
+}
+
+a {
+  font-size: 2.1vh;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sobre {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+}
+
+.profissionais {
+  margin-left: 6%;
+}
+
+.serviços {
+  margin-left: 8%;
+}
+
+.redes-sociais {
+  margin: auto;
+  display: inline-block !important;
+  margin-bottom: 6%;
+}
+
+.facebook {
+  margin-right: 6%;
+}
+
+.twitter {
+  margin-right: 6%;
+}
+
+.instagram {
+  margin-right: 6%;
+}
+/*end footer*/
+
+#btnTop {
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 80px;
+  box-shadow: 3px 3px 10px #333;
+  scroll-behavior: smooth;
+}

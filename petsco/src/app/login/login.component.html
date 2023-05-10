@@ -1,0 +1,33 @@
+<div>
+    <nav class="shadow">
+        <div class="nav-center">
+            <div id="title">
+                <a routerLink="/inicio"><img src="../../assets/LOGO2.png" alt="" class="logoNav"></a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<form [formGroup]="formLogin">
+    <div class="container1">
+
+
+        <!-- <div class="login-card"> -->
+
+        <div class="bemvindo">
+            <h1>Bem-vindo de volta!</h1><br>
+        </div>
+        <input placeholder="E-mail" type="email" class="inputLogin" formControlName="email">
+        <input placeholder="Senha" type="password" class="inputLogin" formControlName="senha">
+        <div class="inputCheck">
+            <input type="checkbox" name="checkBox" id="checkBox">
+            <label for="checkBox" style="margin-left: 5px;">Lembrar de mim</label>
+        </div>
+
+        <a><button class="btnEnt" (click)="loginUser()">Entrar</button></a>
+        <h4>Ainda não tem uma conta? <a routerLink="/cadastro">Cadastre-se</a></h4>
+        <!-- </div> -->
+
+
+    </div>
+</form>

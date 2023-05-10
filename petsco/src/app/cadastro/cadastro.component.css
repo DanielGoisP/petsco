@@ -1,0 +1,149 @@
+:root {
+	--omrs-color-ink-lowest-contrast: rgba(47, 60, 85, 0.18);
+	--omrs-color-ink-low-contrast: rgba(60, 60, 67, 0.3);
+	--omrs-color-ink-medium-contrast: rgba(19, 19, 21, 0.6);
+	--omrs-color-interaction: #1e4bd1;
+	--omrs-color-interaction-minus-two: rgba(73, 133, 224, 0.12);
+	--omrs-color-danger: #b50706;
+	--omrs-color-bg-low-contrast: #eff1f2;
+	--omrs-color-ink-high-contrast: #121212;
+	--omrs-color-bg-high-contrast: #ffffff;
+	
+}
+
+/*navbar*/
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.nav-center{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+width: 1160px;
+}
+
+.shadow{
+  position: relative;
+  box-shadow: 0 1px 100px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+}
+
+.shadow::before,
+.shadow::after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  top: 50%;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+  border-radius: 100px / 10px;
+}
+
+.logoNav{
+  height: 55px;
+  width: 200px;
+}
+
+.cadNav{
+  height: 20px;
+  width: 20px;
+}
+
+/*.aseguro{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+  /*end navbar*/
+
+  .container1{
+    height: 92.5vh;
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .inputRow{
+    display: flex;
+    width: fit-content;
+    gap: 20px;
+    margin-bottom: 2rem
+  }
+
+  .cardInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+
+  .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .inputsCad{
+    box-sizing: border-box;
+    font-size: 14px;
+    vertical-align: baseline;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: .16px;
+    border-radius: 10%;
+    outline: 2px solid transparent;
+    outline-offset: -2px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid #8d8d8d;
+    background-color: #f4f4f4;
+    padding: 0 16px;
+    color: #161616;
+    transition: background-color 70ms cubic-bezier(.2,0,.38,.9),outline 70ms cubic-bezier(.2,0,.38,.9);  
+  }
+  
+  .inputsCad:focus{
+    outline: 2px solid #297373;
+    outline-offset: -2px;
+  }
+
+.cadastrese{
+    max-width: 100%;
+    margin-top: 2px;
+    margin-bottom: 5rem;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+  }
+
+
+.btnCad {
+  border-style: none;
+  border-radius: 10px;
+  background-color: #297373;
+  padding: 0px 15px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 15px;
+}

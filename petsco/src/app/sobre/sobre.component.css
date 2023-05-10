@@ -1,0 +1,123 @@
+/*navbar*/
+
+@font-face {
+  font-family: "poppins semibold";
+  src: url(../../assets/Poppins-SemiBold.ttf);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 9vh;
+  }
+  
+  .logoNav {
+    height: 55px;
+    width: 200px;
+  }
+  
+  .nav-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1160px;
+  }
+  
+  .shadow {
+    position: relative;
+    box-shadow: 0 1px 100px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+  
+  /* end navbar */
+
+  /* fundo */
+
+.container1 {
+    background-image: url("../../assets/fundo.png");
+    background-size: cover;
+    height: 850px;
+    background-color: #fafafa;
+  }
+
+  .sobre-nos{
+    color: #297373;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    padding-left: 63rem;
+    padding-top: 4rem;
+  }
+
+  .text-sobre{
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    display: flex;
+    padding-left: 63rem;
+    padding-top: 0.5rem;
+    max-width: 380px;
+  }
+
+  /* end fundo */
+
+
+  /*footer*/
+.footer {
+  padding: 3%;
+  background-color: #297373;
+  justify-content: space-evenly;
+  display: flex;
+  color: white;
+  font-size: 2.3vh;
+}
+
+a {
+  font-size: 2.1vh;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sobre {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+}
+
+.profissionais {
+  margin-left: 6%;
+}
+
+.serviços {
+  margin-left: 8%;
+}
+
+.redes-sociais {
+  margin: auto;
+  display: inline-block !important;
+  margin-bottom: 6%;
+}
+
+.facebook {
+  margin-right: 6%;
+}
+
+.twitter {
+  margin-right: 6%;
+}
+
+.instagram {
+  margin-right: 6%;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+}
+/*end footer*/
